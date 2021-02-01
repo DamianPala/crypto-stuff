@@ -14,7 +14,7 @@ v.1.0
   a) You can reattach to the screen session using `screen -r chainx`.
 8. Reboot your machine and check if the chainx node is working using `htop`.
 
-## Registering a node
+## Node registration
 
 1. Go to dapps.chainx.org
 2. Open `Stacking Overview` and click `Register a node` on the right top.
@@ -27,7 +27,7 @@ v.1.0
 7. Add identity - `Developer -> Extrinsics`, select `identity` and select `setIdentity`
   a) Set fields: `display`, `email` as required, the rest can be optional.
 
-## Finalisation
+## Finalization
 
 1. Check if the node is visible in chainx dapp on the Stacking Overview tab.
 2. Delegate the rest of your PCX using `Vote` on your node.
