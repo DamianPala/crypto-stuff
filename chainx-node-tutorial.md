@@ -47,7 +47,7 @@ source ~/.cargo/env
 
 1. Go to dapps.chainx.org
 2. Open `Stacking Overview` and click `Register a node` on the right top.
-3. Setup name, initial mortgage e.g. 10 PCX only (the rest of the PCX you can delegate later using `Vote`)..
+3. Setup name, initial mortgage has to be a minimum of 10 PCX. Tx fee is 10 PCX. Totalling 20 PCX. (the rest of the PCX you can delegate later using `Vote`)..
 4. Go to the server and type: `curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:8086` to generate a session key
 5. Go to the ChainX Dapp, click on `Developer` tab, select `Extrinsics`, select `session` on the left and choose `setKeys`.
 	1. Copy result from the json to `keys` field.
